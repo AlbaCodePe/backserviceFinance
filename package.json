@@ -1,10 +1,9 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "build": "echo \"No build step\"",
-    "test": "echo \"No test specified\" && exit 0"
+    "start": "node server.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
